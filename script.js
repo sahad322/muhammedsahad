@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
         const name = document.querySelector('.hero-content h1');
         name.style.borderRight = 'none'; // Remove cursor
-    }, 5000); // 5 seconds (2s animation + 3s delay)
+    }, 5); // 5 seconds (2s animation + 3s delay)
 
     // Existing code for portfolio item clicks
     const gridItems = document.querySelectorAll('.grid-item');
